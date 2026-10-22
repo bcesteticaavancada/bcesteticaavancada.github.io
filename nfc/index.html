@@ -32,7 +32,7 @@
     .brand-kicker{margin:0;color:#ceab77;font-size:9px;line-height:1.5;letter-spacing:.28em;text-transform:uppercase;font-weight:700}
     .hairline{height:1px;width:92px;margin:15px auto 20px;background:linear-gradient(90deg,transparent,var(--gold-mid),transparent)}
     .hero{position:relative;margin:0;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#30231c;box-shadow:0 18px 54px rgba(0,0,0,.25)}
-    .hero img{display:block;width:100%;height:clamp(260px,72vw,376px);object-fit:cover;object-position:center 34%}
+    .hero img{display:block;width:100%;height:auto}
     .hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,rgba(12,8,7,.96) 0%,rgba(12,8,7,.75) 13%,rgba(12,8,7,.02) 47%,transparent 100%)}
     .hero figcaption{position:absolute;z-index:1;left:24px;right:24px;bottom:21px;text-align:center;text-shadow:0 1px 14px #0009}
     .hero-label{font-size:9px;letter-spacing:.25em;text-transform:uppercase;font-weight:750;color:var(--gold)}
@@ -67,8 +67,8 @@
     .share{margin:19px auto 0;display:flex;align-items:center;justify-content:center;gap:8px;padding:11px 16px;border:1px solid var(--line);border-radius:999px;background:transparent;color:#d2b887;cursor:pointer;font:600 12px inherit;font-size:12px;min-height:44px}
     .share svg{width:16px;height:16px}
     .credit{font-size:10px;color:#78675d;margin-top:17px}
-    @media(min-width:600px){.shell{padding-top:35px}.brand img{height:128px}.hero img{height:376px}}
-    @media(max-width:360px){.shell{width:calc(100% - 22px)}.hero img{height:255px}.hero figcaption{left:16px;right:16px}.link{padding:10px 12px;gap:10px}.brand img{height:103px}}
+    @media(min-width:600px){.shell{padding-top:35px}.brand img{height:128px}}
+    @media(max-width:360px){.shell{width:calc(100% - 22px)}.hero figcaption{left:16px;right:16px}.link{padding:10px 12px;gap:10px}.brand img{height:103px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
   </style>
 </head>
@@ -80,7 +80,7 @@
       <div class="hairline" aria-hidden="true"></div>
     </header>
     <figure class="hero">
-      <img src="https://bcesteticaavancada.github.io/bcesteticaavancada-alt/assets/bc-estetica-equipe-hero-luxo-dourado.webp" alt="Equipe de quatro profissionais da BC Estética Avançada em ambiente sofisticado" fetchpriority="high" width="840" height="740">
+      <img src="https://bcesteticaavancada.github.io/bcesteticaavancada-alt/assets/bc-estetica-equipe-hero-luxo-dourado.webp" alt="Equipe de quatro profissionais da BC Estética Avançada em ambiente sofisticado" fetchpriority="high" width="1229" height="1536">
       <figcaption>
         <span class="hero-label">Bem-vinda à BC</span>
         <h1>Beleza <em>com propósito.</em></h1>
